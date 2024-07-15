@@ -1,0 +1,79 @@
+.container img{
+    height: 100px;
+    width: 100px;
+   
+}
+h1,
+h2{
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #b1b1b1;
+    padding: 0 0 10px;
+    color: #57635c;
+}
+
+.logo{
+   width: 100%;
+   text-align: center;
+}
+.logo img{
+    width: 100px;
+}
+
+.new-task-container{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 10px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.new-task-container{
+    text-align: center;
+}
+
+.box{
+    padding: 10px 15px;
+    border: 2px solid #b1c9bb;
+    border-radius: 5px;
+    background: #fff;
+    margin: 15px 0;
+
+}
+.todo-list{
+    float: left;
+    width: 45%;
+}
+.complete-list {
+    float: right;
+    width: 45%;
+}
+
+.update {
+    float: right;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+.delete{
+    float: right;
+    background-color: brown;
+    color: white;
+    border: 0px;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
